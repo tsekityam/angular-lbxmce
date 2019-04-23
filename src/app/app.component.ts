@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
-  items = Array.from({length: 1000}).map((_, i) => `Item #${i}`);
+  items = Array.from({length: 100}).map((_, i) => `Item #${i}`);
 }
