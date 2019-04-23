@@ -1,0 +1,6 @@
+<mat-toolbar color="primary">
+  <span>{{name}}</span>
+</mat-toolbar>
+<cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+  <div *cdkVirtualFor="let item of items" class="example-item">{{item}}</div>
+</cdk-virtual-scroll-viewport>
